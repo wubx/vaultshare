@@ -1,0 +1,51 @@
+{
+  "tenants": [
+    {
+      "id": "company_a",
+      "type": "provider",
+      "name": "公司A - 数据提供方",
+      "description": "金融数据提供商"
+    },
+    {
+      "id": "company_b", 
+      "type": "provider",
+      "name": "公司B - 产品数据提供方",
+      "description": "产品分析数据提供商"
+    },
+    {
+      "id": "company_c",
+      "type": "consumer", 
+      "name": "公司C - 数据消费方",
+      "description": "数据分析公司"
+    },
+    {
+      "id": "company_d",
+      "type": "consumer",
+      "name": "公司D - 研究机构", 
+      "description": "市场研究机构"
+    }
+  ],
+  "shares": [
+    {
+      "provider_id": "company_a",
+      "share_name": "financial_reports",
+      "description": "季度财务报告共享",
+      "file_patterns": ["财务", "报告", "revenue"],
+      "consumer_ids": ["company_c", "company_d"]
+    },
+    {
+      "provider_id": "company_a", 
+      "share_name": "user_analytics",
+      "description": "用户分析数据共享",
+      "file_patterns": ["用户", "analytics", "user"],
+      "consumer_ids": ["company_c"]
+    },
+    {
+      "provider_id": "company_b",
+      "share_name": "product_data",
+      "description": "产品相关数据共享", 
+      "file_patterns": ["产品", "product", "roadmap"],
+      "consumer_ids": ["company_c", "company_d"]
+    }
+  ]
+}
