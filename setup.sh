@@ -2,7 +2,7 @@
 
 # 多租户共享系统快速启动脚本
 
-echo "=== 多租户 MinIO 共享系统 ==="
+echo "=== VaultShare ==="
 echo
 
 # 检查依赖

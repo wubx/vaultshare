@@ -278,7 +278,7 @@ class TenantConsumer:
 # 演示场景
 # ==========================================
 if __name__ == "__main__":
-    print("=== 多租户 MinIO 共享系统演示 ===\n")
+    print("=== VaultShare Demo ===\n")
     
     # 初始化 MinIO 存储
     print("1. 初始化 MinIO 存储...")
