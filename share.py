@@ -109,7 +109,7 @@ class ConsumerAccount:
 # 剧情演示
 # ==========================================
 if __name__ == "__main__":
-    print("=== 初始化 Snowflake 环境 ===")
+    print("=== 初始化 VaultShare 环境 ===")
     provider = ProviderAccount()
     cloud_services = CloudServicesLayer(provider.tmk)
     

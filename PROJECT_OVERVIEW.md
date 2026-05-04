@@ -23,7 +23,7 @@
 ## 📁 项目结构
 
 ```
-rk_crypto/
+vaultshare/
 ├── 核心模块
 │   ├── share.py                    # 原始共享系统
 │   ├── minio_multitenant_share.py  # MinIO多租户实现
@@ -58,7 +58,7 @@ rk_crypto/
 ```bash
 # 克隆项目
 git clone <repository>
-cd rk_crypto
+cd vaultshare
 
 # 安装依赖
 pip install -r requirements.txt
