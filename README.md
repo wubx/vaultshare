@@ -1,6 +1,6 @@
-# 多租户 MinIO 共享系统
+# VaultShare
 
-基于原始 `share.py` 的多租户文件共享系统，使用 MinIO 作为对象存储。
+Multi-tenant secure data sharing with envelope encryption (AES-256-GCM) on MinIO, inspired by Snowflake Data Sharing.
 
 ## 系统架构
 
